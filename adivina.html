@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla Javascript - Adivina el número</title>
+    <link rel="stylesheet" href="styles/css/app.css">
+    <script src="advance/adivina.js" defer></script>
+</head>
+<body>
+    
+    <h1>Juego adivina el número</h1>
+    <p>Se ha seleccionado aleatóreamente un número entre 1 y 100. Intenta adivinarlo en 10 intentos o menos. Si no aciertas te iré informando si el número que has dicho es mayor o menor para ayduarte</p>
+
+
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+
+    <label for="guessField">Adivina el número</label>
+    <input type="text" id="guessField" class="guessField">
+    <input type="submit" value="Enviar respuesta" class="guessSubmit">
+
+
+</body>
+</html>
